@@ -1,0 +1,682 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#2b2b2b;
+}
+body {
+    background-color:#2b2b2b;
+    font-family:  'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.navigation ul { 
+margin-top: 1%;
+margin-right: 2%;
+padding-left: 0;
+list-style: none;
+text-align: right;
+
+}
+.navigation { 
+    background-color:#2b2b2b;
+    color: #ffffff;
+    height: 30px;
+    animation-name: menu-navegation; 
+    animation-duration: 1.5s;
+}
+.navigation li { 
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 100;
+    color: white;    
+}
+.navigation:link { 
+    text-decoration: none;
+}
+.navigation li:hover {
+    color: #ad92c4;
+}
+
+.navigation li:visited {
+    color: white;
+}
+.navigation a:hover { 
+    color: #cbb7db;
+    text-decoration: none;
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navigation li.threeline {
+    display: none;
+}
+.navigation li .threeline:hover {
+    color: #7a6a91;
+    cursor: pointer;
+}
+.capa { 
+    color:#ffffff;
+}
+.capa span {
+   color: #7a6a91;
+   display: inline-block;
+}
+.capa div { 
+    margin-top: 8%;
+    display: inline-block;
+    height: 400px;
+
+}
+.profile-pic { 
+    width: 40%;
+    text-align: center;
+    animation-name: profile-capa;
+    animation-duration: 3s;
+}
+.profile-title { 
+    vertical-align: top;
+    width: 59%;
+    animation-name: profile-titulo;
+    animation-duration: 3s;
+}
+.profile-pic img {
+    width: 310px;
+    border-radius: 300px;
+    size-adjust: 100%;
+}
+
+.profile-title h1 { 
+    font-size: 56px; 
+    margin-top: 60px;
+    margin-right: 3%;
+    font-weight: 600;
+ 
+}       
+.profile-title h2 { 
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -5px;
+    margin-bottom: 15%;
+    margin-right: 3%;
+}
+.main { 
+    padding: 5% 6% 0 5%;
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+.main  h1 {
+    color: white;
+    font-weight: normal;
+}
+.main  h2 {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7a6a91;
+    margin-top: 2.5%;
+}
+.main  h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7a6a91;
+    margin-bottom: -10px;
+ 
+}
+.main p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.cv-pic2 { 
+    float: left;
+    width: 170px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 7%; 
+    position: relative; 
+    display: block;
+    margin: 0.9%;
+    word-break: normal;   
+}
+.cv-pic2{
+    margin-right: 2%;
+}
+.link-oportunidade{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: none;
+    color:  #7a6a91;
+}
+.cv-pic2:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.link-contato {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+.link-contato:hover{
+    color: #7a6a91;
+    font-size: 18px;   
+}
+.perfil {
+    line-height: 16px;
+    font-size: 14px;
+    padding-bottom: 1%;
+    text-align: left;
+}
+.lista-conhecimentos{
+    color: white;
+    font-size: 14px;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+.lista-conhecimentos li{
+    font-size: 16px;
+    font-family: montserrat;
+    line-height: 22px;
+}
+.lista-conhecimentos a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.caminho {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    text-decoration: none;
+}
+.caminho a {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    text-decoration:none;
+}
+.caminho a:hover {
+    color: thistle;
+}
+.caminho li {
+    display: inline-block;
+}
+.social-img { 
+    width: 60px;
+    margin-top: 2.0%;
+    margin-bottom: 2.5%;
+    margin-right: 1%;
+}
+.miniatura {
+    height: 290px;
+    width: 320px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background: contain;
+    overflow: hidden;
+
+}
+.miniatura a {
+    text-decoration: none;
+}
+.blackbox {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    padding-top: 125px;
+}
+.blackbox:hover {
+    opacity: 0.8;
+    transition-duration: 1.1s;
+}
+.blackbox-text {
+    text-align: center;
+}
+.blackbox-text h1 {
+    font-size: 18px;
+    color:#9a89b1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.blackbox-text h2 {
+    color:#ffffff;
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0px;   
+}
+.button-link  {
+    text-decoration: none; 
+}
+.button, .button a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 0;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family: 'montserrat';
+}
+.button-hr{
+    margin-top: -1%;
+    font-family: 'montserrat';
+}
+.button:hover {
+    color: #9a89b1;
+    animation-duration: 2s;
+    font-family: 'montserrat';
+}
+.contato h3 {
+    margin-bottom: -10px;
+    font-size: 17px;
+    line-height: 5pt;
+}
+.contato p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.contato img {
+    margin-top: 3%;
+    max-width: 100%;
+}
+.foto-trabalhos {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trabtxt {
+    text-align: justify;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    line-height: 17pt;
+    font-size: 17px;
+}
+.trabtxt h1 {
+    font-size: 22px;
+}
+.trabtxt p, .trabtxt a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.trabtxt a:hover {
+    color:#7a6a91;
+}
+.trabtxt li{
+    list-style-type: square;
+    line-height: 18pt;
+}
+.link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0;
+   
+}
+.link:hover {
+    color: #7a6a91;
+    text-decoration: none;
+}
+.link ul{
+    margin-top: 0;
+}
+.curriculo {
+    color:white; 
+    text-align: left;
+    font-size: 17px;
+    margin-bottom: 4%;
+    text-decoration: none;
+    line-height: 10px;   
+}
+.curriculo h1 {
+    font-size: 28px;
+    margin-top: 3%;
+    margin-bottom: 2%; 
+}
+
+.formacao,.formacao p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 17px;
+    line-height: 20px;
+}
+.formacao h1{
+    margin-bottom: 2%; 
+}
+.experiencia, .experiencia  p {
+
+    font-size: 17px;
+    color: white;
+    font-size: 17px;
+}
+.trabtxt-padrao {
+    color: white;
+   text-align: left;
+   line-height: 1.5; 
+}
+.trabtxt-padrao img{
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+.link{
+    margin-left: 2%;
+}
+.conteudo-site h1{
+    margin-bottom: 0;
+}
+.conteudo-site a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.foto-criacao-site{
+    max-width: 40%;
+    margin-top: 1%;
+    margin-right: 2%;
+    border-radius: 5%;
+    float: left;
+}
+.foto-criacao-site:hover{
+    opacity: 0.8;
+    transition: 0.9s;
+}
+.foto-criacao-site:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+.txt-site h2{
+    margin-top: 0;
+}
+.txt-site p{
+    margin-bottom: 3%;
+}
+#myBtn {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-bottom: 1%;
+    margin-right: 0;
+  }
+
+
+
+@keyframes profile-capa {
+       
+    0% { opacity: 0; transform: translate(0px,20px)}
+    100% {opacity: 1;  transform: translate(0px,0px)}
+}
+
+@keyframes profile-titulo {
+       
+    0% { opacity: 0; transform: translate(0px,-20px)}
+    100% {opacity: 1;  transform: translate(0px,0px)}
+}
+
+@keyframes menu-navegation {
+
+0% { opacity: 0}
+50% {opacity: 0}
+100% {opacity: 1}
+}
+
+@keyframes conteudo {  
+
+    0% { opacity: 0; transform: translate(-20px,0px)}
+    100% {opacity: 1;  transform: translate(0px,0px)}
+}
+@media (max-width: 750px) {
+   
+.navigation li {
+    display: none;
+}
+.navigation li.threeline { 
+    display: inline-block;
+}
+.capa div {
+    display: block;
+    height: auto;
+    margin-top: -15%;
+}
+.profile-pic {
+    width: 100%;
+    padding-bottom: 15%;
+}
+.profile-pic img {
+    margin-top: 30%;
+    max-width: 60%;
+}
+.profile-title {
+    text-align: center;
+    width: 100%;
+}
+.profile-title h1 { 
+    font-size: 1.8em;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.2em;  
+    margin-top: 5%;
+    font-weight: 600;
+}  
+.profile-title span {
+    font-size: 1em;
+    line-height: 1.2em;  
+    margin-left: 2%;
+    margin-right: 2%; 
+    font-weight: 600;
+}  
+.profile-title h2 { 
+    line-height: 22px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;   
+    margin-top: 3%;
+    font-size: 18px;
+} 
+.main { 
+    padding: 5% 5% 4% 5%;
+}
+.main p {
+	line-height: 30px;
+    text-align: left;
+}
+.main h1 {
+    font-size: 25px;
+}
+.caminho li {
+	font-size: 18px;
+}
+.cv-pic2 {
+    max-width: 30%;
+    margin-right: 5%;
+}  
+.formacao {
+    margin-bottom: 2em;
+}
+.perfil p, .lista-conhecimentos p {
+   text-align: left;
+    font-size: 17px;
+    word-break: break-word;
+}
+.lista-conhecimentos h3{
+    text-align: center;
+    background-color: slateblue;
+}
+.miniatura {
+	max-width: 100%;
+	background-size: auto 100%;
+}
+.foto-trabalhos {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trabtxt {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%; 
+    line-height: 18px;
+    color: #ffffff;
+}
+.trabtxt h1, .trabtxt a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.trabtxt p {
+    font-size: 17px;
+    line-height: 19pt;
+    color:#ffffff;
+}
+.trabtxt a:hover{
+    color:#7a6a91;
+}
+.trabtxt li {
+    font-size: 17px;
+    list-style-type: square;
+    line-height: 17pt;
+    color: #ffffff;
+}
+.contato img {
+    margin-top: 5%;
+    max-width: 100%;
+}
+.link {
+    margin-left: 5%;
+    text-decoration: none;
+}
+.blackbox {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    padding-top: 125px;
+}
+.blackbox:hover {
+    opacity: 0.8;
+    transition-duration: 1.1s;
+}
+.blackbox-text {
+    text-align: center;
+}
+.blackbox-text h1 {
+    font-size: 18px;
+    color:#9a89b1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.blackbox-text h2 {
+    color:#ffffff;
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0px;   
+}
+.miniatura{
+   max-width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.conteudo-site h1{
+    margin-bottom: 0;
+}
+.conteudo-site a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.foto-criacao-site{
+    max-width: 50%;
+    margin-top: 1%;
+    margin-right: 4%;
+    border-radius: 5%;
+    float: left;
+}
+.txt-site h2{
+    margin-top: -4%;
+}
+.txt-site p{
+    text-decoration: none;
+    text-align: left;
+}
+.menujs {
+    height: auto;
+}
+.menujs ul {
+    height: auto;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.menujs li {
+    display: block;
+	border-bottom: solid grey 1px;
+	width: 100%;
+	padding: 0;
+}
+.foto-criacao-site:hover{
+    opacity: 0.8;
+    transition: 0.9s;
+}
+.foto-criacao-site:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+.link-oportunidade{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: none;
+    color:  #7a6a91;
+}
+.social-img { 
+    width: 15%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-right: 1%;
+}
+.curriculo {
+    color:white; 
+    margin-bottom: 4%;
+    text-decoration: none;
+    line-height: 5px;   
+}
+.curriculo h1 {
+    font-size: 28px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    line-height: 10px;    
+}
+.curriculo h2 {
+    margin-top: 10%;
+    margin-bottom: 2%; 
+}
+.curriculo p {
+    line-height: 20px;   
+}
+#myBtn {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 2%;
+  }
+ 
+}
