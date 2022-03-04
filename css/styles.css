@@ -83,7 +83,6 @@ body {
     margin-top: 8%;
     display: inline-block;
     height: 400px;
-
 }
 
 .profile-pic {
@@ -91,6 +90,7 @@ body {
     text-align: center;
     animation-name: profile-capa;
     animation-duration: 3s;
+    
 }
 
 .profile-title {
@@ -104,6 +104,7 @@ body {
     width: 310px;
     border-radius: 300px;
     size-adjust: 100%;
+   
 }
 
 .profile-title h1 {
@@ -111,6 +112,8 @@ body {
     margin-top: 60px;
     margin-right: 3%;
     font-weight: 600;
+    line-height: 1em;
+    
 
 }
 
@@ -590,10 +593,32 @@ body {
 
     .navigation li {
         display: none;
+       
     }
-
     .navigation li.threeline {
         display: inline-block;
+        margin-top: 7%;
+        font-size: 24px;
+    }
+    .menujs {
+        height: auto;
+    }
+
+    .menujs ul {
+        height: auto;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 5%;       
+    }
+
+    .menujs li {
+        display: block;
+        border-bottom: solid grey 1px;
+        width: 100%;
+        padding: 0;
+        margin-top: 7%;
+        font-size: 20px;
+        color: fff;
     }
 
     .capa div {
@@ -618,11 +643,11 @@ body {
     }
 
     .profile-title h1 {
-        font-size: 3em;
+        font-size: 1.7em;
         margin-left: 2%;
         margin-right: 2%;
         line-height: 1.2em;
-        margin-top: 5%;
+        margin-top: 7%;
         font-weight: 600;
     }
 
@@ -635,15 +660,14 @@ body {
     }
 
     .profile-title h2 {
-        line-height: 22px;
+        font-size: 1.em;
+        line-height: 24px;
         margin-left: 2.5%;
         margin-right: 2.5%;
         margin-top: 3%;
-        font-size: 1.5em;
     }
-
     .main {
-        padding: 5% 5% 4% 5%;
+        padding: 7% 5% 4% 5%;
     }
 
     .main p {
@@ -787,15 +811,14 @@ body {
     }
 
     
-        .container {
-            max-width: 100%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 3%;
-            background-size: auto 100%;
-      
-    }
+    .container {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        background-size: auto 100%;
+          }
 
     .miniatura a {
         text-decoration: none;
@@ -825,24 +848,6 @@ body {
     .txt-site p {
         text-decoration: none;
         text-align: left;
-    }
-
-    .menujs {
-        height: auto;
-    }
-
-    .menujs ul {
-        height: auto;
-        text-align: center;
-        padding-right: 3%;
-        padding-left: 3%;
-    }
-
-    .menujs li {
-        display: block;
-        border-bottom: solid grey 1px;
-        width: 100%;
-        padding: 0;
     }
 
     .foto-criacao-site:hover {
