@@ -8,7 +8,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-
 .navigation ul {
     margin-top: 1%;
     margin-right: 2%;
@@ -16,7 +15,6 @@ body {
     list-style: none;
     text-align: right;
 }
-
 .navigation {
     background-color: #2b2b2b;
     color: #ffffff;
@@ -24,7 +22,6 @@ body {
     animation-name: menu-navegation;
     animation-duration: 1.2s;
 }
-
 .navigation li {
     display: inline-block;
     padding-left: 30px;
@@ -34,7 +31,6 @@ body {
     font-weight: 250;
     color: white;
 }
-
 .navigation:link {
     text-decoration: none;
 }
@@ -43,17 +39,13 @@ body {
     color: #ad92c4;
     font-weight: 350;
 }
-
 .navigation li:visited {
     color: white;
 }
-
 .navigation a:hover {
     color: #cbb7db;
     text-decoration: none;
-
 }
-
 .navigation a {
     color: rgb(255, 255, 255);
     text-decoration: none;
