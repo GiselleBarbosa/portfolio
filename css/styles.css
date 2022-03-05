@@ -3,7 +3,6 @@ html, body {
     padding: 0px;
     background-color: #2b2b2b;
 }
-
 body {
     background-color: #2b2b2b;
     font-family: 'Montserrat', sans-serif;
@@ -16,7 +15,6 @@ body {
     padding-left: 0;
     list-style: none;
     text-align: right;
-
 }
 
 .navigation {
