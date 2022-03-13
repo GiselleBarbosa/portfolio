@@ -614,11 +614,11 @@ body {
 
     .profile-pic {
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 20%;
     }
 
     .profile-pic img {
-        margin-top: 40%;
+        margin-top: 20%;
         max-width: 60%;
     }
 
