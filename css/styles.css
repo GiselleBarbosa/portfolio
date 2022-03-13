@@ -582,10 +582,9 @@ body {
     }
     .navigation li.threeline {
         display: inline-block;
-        margin-top: 3%;
-        font-size: 22px;
+        margin-top: 4%;
+        font-size: 24px;
         margin-right: 7%;
-      
     }
     .menujs {
         height: auto;
@@ -595,8 +594,7 @@ body {
         height: auto;
         text-align: center;
         padding-right: 5%;
-        padding-left: 5%;  
-         
+        padding-left: 5%;      
     }
 
     .menujs li {
@@ -604,23 +602,24 @@ body {
         border-bottom: solid grey 1px;
         width: 100%;
         padding: 0;
-        margin-top: 7%;
+        margin-top: 4%;
         color: fff;
+        font-size: 18px;    
     }
 
     .capa div {
         display: block;
         height: auto;
-        margin-top: -15%;
+        margin-top: 0;
     }
 
     .profile-pic {
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 2%;
     }
 
     .profile-pic img {
-        margin-top: 45%;
+        margin-top: 10%;
         max-width: 60%;
     }
 
@@ -915,9 +914,10 @@ body {
         margin-top: 3%;
         }
     .contato a{
-         line-height: 2.3em;
-         font-size: 16px;
-         color: #fff;
-         margin-top: 3%;
+                line-height: 2.3em;
+                font-size: 16px;
+                color: #fff;
+                margin-top: 3%;
+
 }
 }
