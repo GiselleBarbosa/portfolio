@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Contatos</title>
+    <meta lang="pt-br" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Giselle Barbosa" />
 
-<head>
-	<link rel="icon" type="image/png" sizes="16x16"  href="img/favicons/favicon-16x16.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="theme-color" content="#ffffff">
-	<title>Contatos</title>
-	<meta lang="pt-br">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Giselle Barbosa">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
-	<script type="text/javascript" src="js/script.js"></script>
+  <body>
+    <div id="navigation" class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Mim</a></li>
+        <li><a href="curriculo.html">Currículo</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li id="threeline" class="threeline" onclick="openNav()">&#9776;</li>
+      </ul>
+    </div>
 
-</head>
+    <div class="main">
+      <ul class="caminho">
+        <li><a href="index.html">Home </a></li>
+        <li>&Gt; &ensp;</li>
+        <li>Contato</li>
+      </ul>
 
-<body>
-	<div id="navigation" class="navigation">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="sobre.html">Sobre Mim</a></li>
-			<li><a href="curriculo.html">Currículo</a></li>
-			<li><a href="portfolio.html">Portfólio</a></li>
-			<li><a href="contato.html">Contato</a></li>
-			<li id="threeline" class="threeline" onclick="openNav()">&#9776;</li>
-		</ul>
-	</div>
+      <div class="contato">
+        <h1>Contato</h1>
+        <hr />
 
-	<div class="main">
-		<ul class="caminho">
-			<li><a href="index.html">Home </a></li>
-			<li> &Gt; &ensp; </li>
-			<li>Contato</li>
-		</ul>
+        <h3>E-mail</h3>
 
-		<div class="contato">
-			<h1>Contato</h1>
-			<hr>
+        <p>giselle.barbosadev@gmail.com</p>
 
-			<h3> E-mail</h3>
-			<p>giselle.barbosadev@gmail.com
-			<p><a href="mailto:giselle.barbosadev@gmail.com">Envie uma mensagem</a></p>
+        <div id="btn-contato">
+          <a
+            href="mailto:giselle.barbosadev@gmail.com"
+            title="Clique para enviar um email"
+            >Enviar mensagem</a
+          >
+        </div>
 
-			<h3> Telefone:</h3>
-			<p>+55 11 98497-5979</p>
+        <h3>Telefone:</h3>
+        <p>+55 11 98497-5979</p>
 
-			<hr>
-			<h3>Redes Sociais:</h3>
-			<br>
+        <hr />
+        <h3>Redes Sociais:</h3>
 
-			<a href="https://github.com/GiselleBarbosa" target="_blank"><img class="social-img" src="img/github.png"
-					title="GitHub" alt="Link para Página GitHub"></a>
+        <a href="https://github.com/GiselleBarbosa" target="_blank"
+          ><img
+            class="social-img"
+            src="img/github.png"
+            title="GitHub"
+            alt="Link para Página GitHub"
+        /></a>
 
-			<a href="https://www.linkedin.com/in/gisellebarb/" target="_blank"><img class="social-img-linkedin"
-					src="img/linkedin.png" title="LinkedIn" alt="Link para Página do LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/gisellebarb/" target="_blank"
+          ><img
+            class="social-img-linkedin"
+            src="img/linkedin.png"
+            title="LinkedIn"
+            alt="Link para Página do LinkedIn"
+        /></a>
+      </div>
 
-
-		</div>
-
-		<div class="button"><a href="index.html">&larr;&ensp;Voltar ao início</a></div>
-	</div>
-
-</body>
-
-
+      <div class="button">
+        <a href="index.html">&larr;&ensp;Voltar ao início</a>
+      </div>
+    </div>
+  </body>
 </html>
