@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
 html,
 body {
   margin: 0px;
@@ -44,7 +48,6 @@ body {
 
 .navigation a {
   color: #ffffff;
-  text-decoration: none;
 }
 
 .navigation li:visited {
@@ -52,7 +55,6 @@ body {
 }
 
 .navigation a:hover {
-  text-decoration: none;
   color: #ad92c4;
   transition: 1.2s;
 }
@@ -110,11 +112,9 @@ body {
 }
 
 .profile-title h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 100;
-  margin-top: -5px;
-  margin-bottom: 15%;
-  margin-right: 3%;
+  margin-top: -15px;
 }
 
 .main {
@@ -154,7 +154,7 @@ body {
 
 .cv-pic2 {
   float: left;
-  width: 155px;
+  width: 135px;
   margin-right: 2%;
   margin-top: 2%;
   margin-bottom: 0.5%;
@@ -165,12 +165,10 @@ body {
 }
 
 .link-oportunidade {
-  text-decoration: none;
   color: white;
 }
 
 .link:hover {
-  text-decoration: none;
   color: #7a6a91;
 }
 
@@ -181,11 +179,11 @@ body {
 
 .sobre p {
   text-align: left;
+  word-spacing: 10px;
 }
 
 .link-contato {
   color: rgb(255, 255, 255);
-  text-decoration: none;
 }
 
 .link-contato:hover {
@@ -216,7 +214,6 @@ body {
 
 .lista-conhecimentos a {
   font-size: 16px;
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -224,14 +221,12 @@ body {
   list-style: none;
   padding-left: 0;
   color: white;
-  text-decoration: none;
 }
 
 .caminho a {
   list-style: none;
   padding-left: 0;
   color: white;
-  text-decoration: none;
 }
 
 .caminho a:hover {
@@ -283,11 +278,6 @@ body {
   background-size: contain;
   overflow: hidden;
 }
-
-.miniatura a {
-  text-decoration: none;
-}
-
 .miniatura img {
   max-width: 100%;
   float: left;
@@ -324,16 +314,10 @@ body {
   font-weight: 100;
   margin-top: 0px;
 }
-
-.button-link {
-  text-decoration: none;
-}
-
 .button,
 .button a {
   color: white;
   font-size: 16px;
-  text-decoration: none;
   margin-left: 0;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -361,7 +345,6 @@ body {
 .contato a {
   margin-bottom: 30px;
   font-size: 18px;
-  text-decoration: none;
   color: #ffffff;
   margin-top: 2%;
 }
@@ -411,7 +394,6 @@ body {
 .trabtxt p,
 .trabtxt a {
   font-size: 17px;
-  text-decoration: none;
   color: white;
 }
 
@@ -427,13 +409,11 @@ body {
 .link {
   color: white;
   font-size: 18px;
-  text-decoration: none;
   margin-bottom: 0;
 }
 
 .link:hover {
   color: #7a6a91;
-  text-decoration: none;
 }
 
 .link ul {
@@ -445,7 +425,6 @@ body {
   text-align: left;
   font-size: 17px;
   margin-bottom: 4%;
-  text-decoration: none;
   line-height: 10px;
 }
 
@@ -529,7 +508,6 @@ body {
 
 .conteudo-site a {
   color: #ffffff;
-  text-decoration: none;
 }
 
 .foto-criacao-site {
@@ -562,7 +540,6 @@ body {
 }
 
 .instrucoes li {
-  text-decoration: none;
   font-size: 16px;
   font-weight: 200;
 }
@@ -577,14 +554,16 @@ body {
 }
 
 .redes-sociais a:hover {
-  color: #818181;
+  color: #b49aba;
   font-size: 50px;
   letter-spacing: 12px;
   margin-top: 6%;
+  transition: 0.7s;
 }
 
 footer .icones-index a:hover {
-  color: #7a7a7a;
+  color: #7d7d7d;
+  transition: 0.9s;
 }
 
 footer .icones-index {
@@ -689,7 +668,7 @@ footer .icones-index a {
   }
   .profile-pic img {
     margin-top: 10%;
-    max-width: 60%;
+    max-width: 50%;
   }
   .profile-title {
     text-align: center;
@@ -770,7 +749,7 @@ footer .icones-index a {
   .trabtxt h1,
   .trabtxt a {
     font-size: 18px;
-    text-decoration: none;
+
     color: white;
   }
   .trabtxt p {
@@ -793,7 +772,6 @@ footer .icones-index a {
   }
   .link {
     margin-left: 5%;
-    text-decoration: none;
   }
   .blackbox {
     width: 100%;
@@ -847,15 +825,11 @@ footer .icones-index a {
     margin-bottom: 3%;
     background-size: auto 100%;
   }
-  .miniatura a {
-    text-decoration: none;
-  }
   .conteudo-site h1 {
     margin-bottom: 0;
   }
   .conteudo-site a {
     color: #ffffff;
-    text-decoration: none;
   }
   .foto-criacao-site {
     max-width: 50%;
@@ -868,7 +842,6 @@ footer .icones-index a {
     margin-top: -4%;
   }
   .txt-site p {
-    text-decoration: none;
     text-align: left;
   }
   .foto-criacao-site:hover {
@@ -880,17 +853,15 @@ footer .icones-index a {
     transition: 1s;
   }
   .link-oportunidade {
-    text-decoration: none;
     color: white;
   }
   .link:hover {
-    text-decoration: none;
     color: #7a6a91;
   }
   .curriculo {
     color: white;
     margin-bottom: 4%;
-    text-decoration: none;
+
     line-height: 5px;
   }
   .info-curriculo {
@@ -931,6 +902,7 @@ footer .icones-index a {
   .curriculo p {
     line-height: 20px;
   }
+
   #myBtn {
     display: flex;
     justify-content: space-between;
@@ -943,7 +915,6 @@ footer .icones-index a {
     font-size: 14px;
   }
   .instrucoes li {
-    text-decoration: none;
     font-size: 17px;
     font-weight: 100;
   }
@@ -977,11 +948,16 @@ footer .icones-index a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     bottom: 2%;
     left: 0;
     height: auto;
     position: fixed;
     width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .icones-index a {
+    display: none;
   }
 }
