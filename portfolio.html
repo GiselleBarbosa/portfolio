@@ -1,217 +1,264 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Portfólio Online</title>
+    <meta lang="pt-br" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Giselle Barbosa" />
 
-<head>
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="theme-color" content="#ffffff">
-	<title>Portfólio Online </title>
-	<meta lang="pt-br">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Giselle Barbosa">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
-	<script type="text/javascript" src="js/script.js"></script>
+  <body>
+    <div id="navigation" class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="curriculo.html">Currículo</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li id="threeline" class="threeline" onclick="openNav()">&#9776;</li>
+      </ul>
+    </div>
 
-</head>
+    <div class="main">
+      <ul class="caminho">
+        <li><a href="index.html">Home </a></li>
+        <li>&Gt; &ensp;</li>
+        <li>Portfólio</li>
+      </ul>
 
-<body>
-	<div id="navigation" class="navigation">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="sobre.html">Sobre</a></li>
-			<li><a href="curriculo.html">Currículo</a></li>
-			<li><a href="portfolio.html">Portfólio</a></li>
-			<li><a href="contato.html">Contato</a></li>
-			<li id="threeline" class="threeline" onclick="openNav()">&#9776;</li>
-		</ul>
-	</div>
+      <h1>Portfólio</h1>
+      <hr />
 
-	<div class="main">
+      <div class="container">
+        <div class="titulo-portfolio">Calculadora</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/calculadoraminiatura.png');
+          "
+          alt="Imagem da Calculadora feita com html, css e javascript"
+          class="miniatura"
+          title="Contador Inteligente"
+        >
+          <a href="calculadora.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Calculadora</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<ul class="caminho">
-			<li><a href="index.html">Home </a> </li>
-			<li>&Gt; &ensp; </li>
-			<li>Portfólio</li>
-		</ul>
+      <div class="container">
+        <div class="titulo-portfolio">Tela de Login</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/tela-de-login-miniatura.png');
+          "
+          alt="Imagem da tela de uma tela de login feita com html e css"
+          class="miniatura"
+        >
+          <a href="tela-de-login.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Tela de Login</h1>
+                <h2>HTML/CSS</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<h1>Portfólio</h1>
-		<hr>
+      <div class="container">
+        <div class="titulo-portfolio">Portfólio Hiring Coders#3</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/Portfolio-HiringCoders-miniatura.png');
+          "
+          class="miniatura"
+        >
+          <a href="hiring-coders.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Layout Responsivo</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<div class="container">
+      <div class="container">
+        <div class="titulo-portfolio">Formulario com Validação</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/formulario-valid-miniatura.jpg');
+          "
+          class="miniatura"
+        >
+          <a href="form-valid.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Formulário com Validação</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-			<div class="titulo-portfolio">Calculadora</div>
-			<div style="background-image: url('img/trabalhos/calculadoraminiatura.png')"
-				alt="Imagem da Calculadora feita com html, css e javascript" class="miniatura"
-				title="Contador Inteligente"><a href="calculadora.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Calculadora</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+      <div class="container">
+        <div class="titulo-portfolio">Formulário HTML</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/miniatura-formulario.png');
+          "
+          alt="Imagem de uma tela contendo um formulário"
+          class="miniatura"
+          title="Formulário"
+        >
+          <a href="formulario.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Formulário HTML</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<div class="container">
-			<div class="titulo-portfolio">Tela de Login </div>
-			<div style="background-image: url('img/trabalhos/tela-de-login-miniatura.png')"
-				alt="Imagem da tela de uma tela de login feita com html e css" class="miniatura">
-				<a href="tela-de-login.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Tela de Login</h1>
-							<h2>HTML/CSS</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+      <div class="container">
+        <div class="titulo-portfolio">Validador de CPF</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/validador-cpf-miniatura.png');
+          "
+          class="miniatura"
+        >
+          <a href="validador-cpf.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Validador de CPF</h1>
+                <h2>HTML E JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<div class="container">
-			<div class="titulo-portfolio">Portfólio Hiring Coders#3</div>
-			<div style="background-image: url('img/trabalhos/Portfolio-HiringCoders-miniatura.png')" class="miniatura">
-				<a href="hiring-coders.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Layout Responsivo</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+      <div class="container">
+        <div class="titulo-portfolio">Tela de Login Instagram</div>
+        <div
+          style="
+            background-image: url('img/trabalhos/instagram-tela-miniatura.png');
+          "
+          class="miniatura"
+        >
+          <a href="login-instagram.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Tela Login Instagram</h1>
+                <h2>HTML/CSS - Flexbox</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="titulo-portfolio">Contador Inteligente</div>
+        <div
+          style="background-image: url('img/trabalhos/contadorminiatura.png')"
+          alt="Imagem da tela do contador inteligente"
+          class="miniatura"
+          title="Contador Inteligente"
+        >
+          <a href="contador.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Contador Inteligente</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="titulo-portfolio">Tabuada de Multiplicação</div>
+        <div
+          style="background-image: url('img/trabalhos/tabuadaminiatura.png')"
+          alt="Imagem da tela da tabuada de multiplicação feita com html, css e javascript"
+          class="miniatura"
+          title="Tabuada de Multiplicação"
+        >
+          <a href="tabuada.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Tabuada de Multiplicação</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="titulo-portfolio">Criação desta Página</div>
+        <div
+          style="background-image: url('img/trabalhos/padrão.jpg')"
+          alt="Imagem de uma pessoa segurando um computador e um celular"
+          class="miniatura"
+          title="Criação desta página"
+        >
+          <a href="criacao-site.html">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>Criação desta Página</h1>
+                <h2>HTML/CSS/JAVASCRIPT</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<div class="container">
-			<div class="titulo-portfolio">Formulario com Validação</div>
-			<div style="background-image: url('img/trabalhos/formulario-valid-miniatura.jpg')" class="miniatura">
-				<a href="form-valid.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Formulário com Validação</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+      <div class="container">
+        <div class="titulo-portfolio">NOVIDADES EM BREVE</div>
+        <div
+          style="background-image: url('img/trabalhos/job.jpeg')"
+          class="miniatura"
+        >
+          <a href="#">
+            <div class="blackbox">
+              <div class="blackbox-text">
+                <h1>EM BREVE</h1>
+                <h2></h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-		<div class="container">
-			<div class="titulo-portfolio">Formulário HTML</div>
-			<div style="background-image: url('img/trabalhos/miniatura-formulario.png')"
-				alt="Imagem de uma tela contendo um formulário" class="miniatura" title="Formulário"><a
-					href="formulario.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Formulário HTML</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="titulo-portfolio">Validador de CPF</div>
-			<div style="background-image: url('img/trabalhos/validador-cpf-miniatura.png')" class="miniatura">
-				<a href="validador-cpf.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Validador de CPF</h1>
-							<h2>HTML E JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-
-		<div class="container">
-			<div class="titulo-portfolio">Tela de Login Instagram</div>
-			<div style="background-image: url('img/trabalhos/instagram-tela-miniatura.png')" class="miniatura">
-				<a href="login-instagram.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Tela Login Instagram</h1>
-							<h2>HTML/CSS - Flexbox</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="container">
-			<div class="titulo-portfolio">Contador Inteligente</div>
-			<div style="background-image: url('img/trabalhos/contadorminiatura.png')"
-				alt="Imagem da tela do contador inteligente" class="miniatura" title="Contador Inteligente"><a
-					href="contador.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Contador Inteligente</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="titulo-portfolio">Tabuada de Multiplicação</div>
-			<div style="background-image: url('img/trabalhos/tabuadaminiatura.png')"
-				alt="Imagem da tela da tabuada de multiplicação feita com html, css e javascript" class="miniatura"
-				title="Tabuada de Multiplicação"><a href="tabuada.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Tabuada de Multiplicação</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="titulo-portfolio">Criação desta Página</div>
-			<div style="background-image: url('img/trabalhos/padrão.jpg')"
-				alt="Imagem de uma pessoa segurando um computador e um celular" class="miniatura"
-				title="Criação desta página">
-				<a href="criacao-site.html">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>Criação desta Página</h1>
-							<h2>HTML/CSS/JAVASCRIPT</h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-
-		<div class="container">
-			<div class="titulo-portfolio">NOVIDADES EM BREVE</div>
-			<div style="background-image: url('img/trabalhos/job.jpeg')" class="miniatura">
-				<a href="#">
-					<div class="blackbox">
-						<div class="blackbox-text">
-							<h1>EM BREVE</h1>
-							<h2></h2>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-
-
-
-		<div class="button"><a href="index.html">&larr;&ensp;Voltar ao início</a></div>
-
-	</div>
-
-</body>
-
+      <div class="button">
+        <a href="index.html">&larr;&ensp;Voltar ao início</a>
+      </div>
+    </div>
+  </body>
 </html>

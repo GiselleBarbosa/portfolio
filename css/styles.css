@@ -16,11 +16,11 @@ body {
 }
 
 .navigation ul {
-  margin-top: 1%;
+  margin-top: 2%;
   margin-right: 0;
-  padding-left: 0;
+  padding-left: 2%;
   list-style: none;
-  text-align: right;
+  text-align: left;
   padding-bottom: 20px;
   cursor: pointer;
 }
@@ -55,8 +55,9 @@ body {
 }
 
 .navigation a:hover {
-  color: #ad92c4;
-  transition: 1.2s;
+  color: #9294c4;
+  transition: 0.2s;
+  font-weight: 500;
 }
 
 .navigation li.threeline {
@@ -64,7 +65,7 @@ body {
 }
 
 .navigation li .threeline:hover {
-  color: #7a6a91;
+  color: #9294c4;
   cursor: pointer;
 }
 
@@ -73,7 +74,7 @@ body {
 }
 
 .capa span {
-  color: #7a6a91;
+  color: #7795cb;
   display: inline-block;
 }
 
@@ -133,14 +134,14 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #7a6a91;
+  color: #7795cb;
   margin-top: 2.5%;
 }
 
 .main h3 {
   font-size: 14px;
   text-transform: uppercase;
-  color: #7a6a91;
+  color: #7795cb;
   margin-bottom: -10px;
 }
 
@@ -169,7 +170,7 @@ body {
 }
 
 .link:hover {
-  color: #7a6a91;
+  color: #9294c4;
 }
 
 .cv-pic2:hover {
@@ -182,12 +183,25 @@ body {
   word-spacing: 10px;
 }
 
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 4%;
+}
+
+.skills-icons img {
+  display: flex;
+  height: 25px;
+  cursor: pointer;
+}
+
 .link-contato {
   color: rgb(255, 255, 255);
 }
 
 .link-contato:hover {
-  color: #7a6a91;
+  color: #9294c4;
   font-size: 18px;
 }
 
@@ -196,25 +210,6 @@ body {
   font-size: 14px;
   padding-bottom: 1%;
   text-align: left;
-}
-
-.lista-conhecimentos {
-  color: white;
-  font-size: 14px;
-  margin-top: -1em;
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-.lista-conhecimentos li {
-  font-size: 16px;
-  font-family: montserrat;
-  line-height: 22px;
-}
-
-.lista-conhecimentos a {
-  font-size: 16px;
-  color: #ffffff;
 }
 
 .caminho {
@@ -398,7 +393,7 @@ body {
 }
 
 .trabtxt a:hover {
-  color: #7a6a91;
+  color: #9294c4;
 }
 
 .trabtxt li {
@@ -413,7 +408,7 @@ body {
 }
 
 .link:hover {
-  color: #7a6a91;
+  color: #9294c4;
 }
 
 .link ul {
@@ -706,26 +701,26 @@ footer .icones-index a {
   .main h1 {
     font-size: 20px;
   }
+
   .caminho li {
     font-size: 18px;
   }
+
   .cv-pic2 {
     max-width: 30%;
     margin-right: 5%;
   }
+
   .formacao {
     margin-bottom: 2em;
   }
-  .perfil p,
-  .lista-conhecimentos p {
+
+  .perfil p {
     text-align: left;
     font-size: 17px;
     word-break: break-word;
   }
-  .lista-conhecimentos h3 {
-    text-align: center;
-    background-color: slateblue;
-  }
+
   .miniatura {
     max-width: 100%;
     background-size: auto 100%;
@@ -758,7 +753,7 @@ footer .icones-index a {
     color: #ffffff;
   }
   .trabtxt a:hover {
-    color: #7a6a91;
+    color: #9294c4;
   }
   .trabtxt li {
     font-size: 17px;
@@ -856,7 +851,7 @@ footer .icones-index a {
     color: white;
   }
   .link:hover {
-    color: #7a6a91;
+    color: #9294c4;
   }
   .curriculo {
     color: white;
@@ -959,5 +954,15 @@ footer .icones-index a {
 @media (max-height: 570px) {
   .icones-index a {
     display: none;
+  }
+
+  .skills-icons {
+    margin-bottom: 6%;
+  }
+}
+
+@media (max-height: 390px) {
+  .skills-icons {
+    margin-bottom: 6%;
   }
 }
